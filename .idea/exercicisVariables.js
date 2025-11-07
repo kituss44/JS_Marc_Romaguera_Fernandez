@@ -19,4 +19,14 @@ Amb var surt indefinida, i amb let surt error.*/
 var valor = 0
 console.log(valor)
 valor = 'wasd'
-console.log(valor)*/
+console.log(valor)
+
+JS es de tipatge dinàmic, aixó vol dir que el tipus de la variable pot canviar.*/
+
+/*Exercici 5
+const constant = 100
+console.log(constant)
+constant = 'wasd'
+console.log(constant)
+
+No deixa cambiar de tipus de dada ja que es una constant i no pot cambiar*/
