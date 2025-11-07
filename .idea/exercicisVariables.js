@@ -6,3 +6,11 @@
 //var segon = 'wasd'
 //var tercer = 44
 //console.log(primer, segon, tercer)
+
+/*Exercici 3
+console.log(dada_1)
+console.log(dada_2)
+var dada_1 = 'mec'
+let dada_2 = 'mec'
+
+Amb var surt indefinida, i amb let surt error.*/
