@@ -1,0 +1,1 @@
+console.log("Hem dic Marc Romaguera Fernandez i tinc 18 anys")
