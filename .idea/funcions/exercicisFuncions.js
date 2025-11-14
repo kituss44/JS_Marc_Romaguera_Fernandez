@@ -48,3 +48,7 @@ console.log(comptaVocals('patata'))*/
 
 //Exercici 6
 
+function sumar(a, b, c = 5) {
+    return a + b + c;
+}
+console.log(sumar(3, 4))
