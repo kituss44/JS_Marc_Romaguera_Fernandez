@@ -16,12 +16,11 @@ valor(613)
 valor('patata')
 valor(true)*/
 
-/*Exercici 3
+/* Exercici 3
 
 function data() {
     return new Date()
-}
-console.log(data())*/
+}*/
 
 /*Exercici 4
 
@@ -46,9 +45,42 @@ function comptaVocals(text) {
 }
 console.log(comptaVocals('patata'))*/
 
-//Exercici 6
+/*Exercici 6
 
 function sumar(a, b, c = 5) {
     return a + b + c;
+}*/
+
+/*Exercici 7
+
+function exercici7(a, b, c) {
+    const dataa = data()
+    console.log("Data actual:", dataa)
+    return sumar(a, b, c)
 }
-console.log(sumar(3, 4))
+console.log(exercici7(2, 3, 4))*/
+
+/* Exercici 8
+
+function comprovarTrenta(a, b) {
+    return (a === 30 || b === 30 || (a + b) === 30)
+}
+console.log(comprovarTrenta(10, 20))
+console.log(comprovarTrenta(30, 5))
+console.log(comprovarTrenta(13,30))
+console.log(comprovarTrenta(7, 4))*/
+
+// Exercici 9
+
+const func_trenta = function(x, y) {
+    if (x === 30 || y == 30 || x + y == 30) {
+        return true
+    }
+    else{
+        return false
+    }
+}
+console.log(func_trenta(10, 20))
+console.log(func_trenta(30, 5))
+console.log(func_trenta(13,30))
+console.log(func_trenta(7, 4))
