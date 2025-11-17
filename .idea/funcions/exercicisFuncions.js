@@ -70,7 +70,7 @@ console.log(comprovarTrenta(30, 5))
 console.log(comprovarTrenta(13,30))
 console.log(comprovarTrenta(7, 4))*/
 
-// Exercici 9
+/* Exercici 9
 
 const func_trenta = function(x, y) {
     if (x === 30 || y == 30 || x + y == 30) {
@@ -83,4 +83,14 @@ const func_trenta = function(x, y) {
 console.log(func_trenta(10, 20))
 console.log(func_trenta(30, 5))
 console.log(func_trenta(13,30))
-console.log(func_trenta(7, 4))
+console.log(func_trenta(7, 4))*/
+
+/* Exercici 10
+
+const comprovarTrenta = function(a, b) {
+    return (a === 30 || b === 30 || (a + b) === 30)
+};
+console.log(comprovarTrenta(10, 20))
+console.log(comprovarTrenta(30, 5))
+console.log(comprovarTrenta(13,30))
+console.log(comprovarTrenta(7, 4))*/
