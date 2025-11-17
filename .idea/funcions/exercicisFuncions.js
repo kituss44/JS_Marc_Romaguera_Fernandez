@@ -103,3 +103,29 @@ console.log(arrelQuadrada(13276))*/
 
 const aMinuscules = str => str.toLowerCase()
 console.log(aMinuscules("ADRIA EL MILLOR PROFESSOR AAaaAAaa"))*/
+
+/* Exercici 13
+
+const  noNull = (a,b) =>{ if (a !== null){console.log(a)} if (b !== null){console.log(b)}}
+noNull(87162,"patatoski")
+noNull(false,true)
+noNull(null,"botato")*/
+
+/* Exercici 14
+
+const posicio = (frase, paraula) => {const fraseParaula = frase.indexOf(paraula)
+    if (fraseParaula === -1) return -1
+    return frase.length - (fraseParaula)
+}
+console.log(posicio("Hola com estàs", "com"))
+
+const dividir = (frase, paraula) => {const pos = posicio(frase, paraula)
+    if (pos === -1) return ""
+    return frase.slice(frase.length - pos)
+};
+console.log(dividir("Hola com estàs", "estàs"))*/
+
+/* Exercici 15
+
+const triple = (x) => x + x + x
+console.log(triple(5))*/
