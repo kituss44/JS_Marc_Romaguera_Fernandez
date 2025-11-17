@@ -87,10 +87,19 @@ console.log(func_trenta(7, 4))*/
 
 /* Exercici 10
 
-const comprovarTrenta = function(a, b) {
-    return (a === 30 || b === 30 || (a + b) === 30)
-};
-console.log(comprovarTrenta(10, 20))
-console.log(comprovarTrenta(30, 5))
-console.log(comprovarTrenta(13,30))
-console.log(comprovarTrenta(7, 4))*/
+const igual = (a, b) => a === b
+console.log(igual(5,5))
+console.log(igual(5,"5"))
+console.log(igual(true,true))
+console.log(igual(null,undefined))*/
+
+/* Exercici 11
+
+const arrelQuadrada = x => Math.sqrt(x).toFixed(2)
+console.log(arrelQuadrada(9))
+console.log(arrelQuadrada(13276))*/
+
+/* Exercici 12
+
+const aMinuscules = str => str.toLowerCase()
+console.log(aMinuscules("ADRIA EL MILLOR PROFESSOR AAaaAAaa"))*/
